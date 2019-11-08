@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="course-api-data3">
+		<class>com.springbootquickstart.Model.Contract</class>
+		<class>com.springbootquickstart.Model.Country</class>
+		<class>com.springbootquickstart.Model.Disbursement</class>
+		<class>com.springbootquickstart.Model.Financing_Plan_Type</class>
+		<class>com.springbootquickstart.Model.Fund_Source</class>
+		<class>com.springbootquickstart.Model.Product</class>
+		<class>com.springbootquickstart.Model.Product_Status</class>
+		<class>com.springbootquickstart.Model.Product_Team</class>
+		<class>com.springbootquickstart.Model.Product_Type</class>
+		<class>com.springbootquickstart.Model.Project</class>
+		<class>com.springbootquickstart.Model.Role</class>
+		<class>com.springbootquickstart.Model.Staff</class>
+		<class>com.springbootquickstart.Model.Product_Sector</class>
+		<class>com.springbootquickstart.Model.Product_Subsector</class>
+	</persistence-unit>
+</persistence>
